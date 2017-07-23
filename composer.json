@@ -2,20 +2,32 @@
     "name": "pipa7/yii2-admin-bsb-material-design",
     "description": "Asset Bundle for AdminBSB - Material Design",
     "type": "yii2-extension",
-    "keywords": ["yii2","asset"],
+    "keywords": ["yii2","extension","backend","bootspra3","admin","adminbbsb","theme","asset"],
     "license": "MIT",
     "authors": [
         {
             "name": "Pipa7",
-            "email": "voe@pipa7.com"
+            "email": "voe@pipa7.com",
+            "homepage": "https://github.com/pipa7",
+            "role": "Creator"
+
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "bower-asset/adminbsb-materialdesign": "*"
+
     },
     "autoload": {
         "psr-4": {
             "pipa7\\adminbsb\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+          "npm-asset-library": "vendor/npm",
+          "bower-asset-library": "vendor/bower"
         }
     }
 }
