@@ -1,3 +1,4 @@
+
 Yii2 AdminBSB - Material Design
 ===============================
 Asset Bundle for AdminBSB - Material Design
@@ -29,3 +30,7 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?= \pipa7\adminbsb\AutoloadExample::widget(); ?>```
+=======
+# yii2-admin-bsb-material-design
+Yii2 AdminBSB - Material Design
+
