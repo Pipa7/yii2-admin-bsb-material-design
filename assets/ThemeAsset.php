@@ -20,8 +20,6 @@ class ThemeAsset extends AssetBundle
         'plugins/bootstrap-select/js/bootstrap-select.js',
         'plugins/jquery-slimscroll/jquery.slimscroll.js',
         'plugins/node-waves/waves.js',
-        'js/admin.js',
-        'js/demo.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
